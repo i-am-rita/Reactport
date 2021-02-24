@@ -1,8 +1,12 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Navbar from './components/Navbar'
 
 function App() {
-  return <h1>Rita Pro</h1>
+  return (
+  <Navbar/> 
+  )
 }
+
 
 export default App
